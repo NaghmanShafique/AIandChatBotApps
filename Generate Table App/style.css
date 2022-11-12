@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading1 {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.main-container {
+    margin: 40px auto;
+    /* background-color: aqua; */
+    width: 50%;
+}
+.container {
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+   
+}
+#o-marks{
+    margin-left: 10px;
+    
+}
+
+#t-marks{
+    margin-left: 20px;
+}
+#result{
+   /* text-align: center;
+   margin: 40px auto; */
+   display: flex;
+   justify-content: center;
+}
