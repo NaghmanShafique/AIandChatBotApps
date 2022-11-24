@@ -19,6 +19,12 @@
     justify-content: center;
    
 }
+
+#input-array {
+    width: 400px;
+    height: 30px;
+    border-radius: 6px;
+}
 #o-marks{
     margin-left: 10px;
     
@@ -33,12 +39,14 @@
    display: flex;
    justify-content: center;
    margin-top: 20px;
+   font-size: medium;
+   font-weight:bold;
 }
 
 .btn-container {
     /* background-color:blueviolet; */
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
