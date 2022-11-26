@@ -23,14 +23,31 @@
     console.log(arr1);
    
 
+   // for (let i = 0; i < numArray1.length; i++) {
+   //    arr1.innerHTML += `[${numArray1[i]}]<br/>`
+   // }
+   
    for (let i = 0; i < numArray1.length; i++) {
-      arr1.innerHTML += `[${numArray1[i]}]<br/>`
+      arr1.innerHTML += `[`
+       for (let j = 0; j < numArray1.length; j++) {
+         arr1.innerHTML += `${numArray1[i][j]},`
+       }
+       arr1.innerHTML += `]<br />`
    }
    
-   for (let j = 0; j < numArray2.length; j++) {
-      arr2.innerHTML += `[${numArray2[j]}]<br/>`
-   }
+
+   // for (let j = 0; j < numArray2.length; j++) {
+   //    arr2.innerHTML += `[${numArray2[j]}]<br/>`
+   // }
      
+   for (let i = 0; i < numArray2.length; i++) {
+      arr2.innerHTML += `[`
+      for (let j = 0; j < numArray2.length; j++) {
+        arr2.innerHTML += `${numArray2[i][j]},`
+      }
+      arr2.innerHTML += `]<br />`
+  }
+
    for (let k = 0; k < numArray1.length; k++) {
       newArray[k] = [];
       for (let l = 0; l < numArray1[k].length; l++) {
