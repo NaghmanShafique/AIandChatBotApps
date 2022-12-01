@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather Application</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>   
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+
+    
+        <h1 id="heading1">Wheather Application By City</h1>
+        <div class="box1">
+          <div class="box2">
+            <section class="inputBox">
+              <form>
+                <input id="text-ip"
+                  type="text"
+                  placeholder="Search City Weather..."
+                />
+                <button type="submit" onclick="getWheather()">Submit</button>
+              </form>
+            </section>
+            </div>
+         </div>   
+           
+         <section className="cardWrapper">
+              
+              
+
+            <div class="profileListing">
+              <ul>
+                <li>City:</li>
+                <li>Region:</li>
+                <li>
+                  Country:
+                </li>
+                <li>
+                  Temprature:
+                </li>
+                <li>Humidity:</li>
+                <li>Condition:</li>
+              </ul>
+            </div>
+          </section>
+             
+    <script src="app.js"></script>
+</body>
+
+</html>
