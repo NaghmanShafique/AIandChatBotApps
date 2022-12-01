@@ -17,11 +17,11 @@ function getWheather() {
             console.log(response.data);
             console.log(response.data.name);
             console.log(response.data.main.temp);
-            city.innerHTML += `City:`+ response.data.name;
-            country.innerHTML += `Country:`+ response.data.sys.country;
-            temp.innerHTML += `Temprature:`+ response.data.main.temp;
-            flike.innerHTML += `Feel Like    :`+ response.data.main.feels_like;
-            tmin.innerHTML += `Minumun Tempreture    :`+ response.data.main.temp_min;
+            city.innerHTML = `City:`+ response.data.name;
+            country.innerHTML = `Country:`+ response.data.sys.country;
+            temp.innerHTML = `Temprature:`+ response.data.main.temp+`°C`;
+            flike.innerHTML = `Feel Like    :`+ response.data.main.feels_like+`°C`;
+            tmin.innerHTML = `Minumun Tempreture    :`+ response.data.main.temp_min+`°C`;
         })
         .catch(function (error) {
             // handle error
